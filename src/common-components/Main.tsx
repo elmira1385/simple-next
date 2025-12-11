@@ -15,21 +15,21 @@ export const Main = () => {
           "Front-end developer and avid reader."
         </p>
       </div>
-      <ul className="flex flex-col gap-4 *:hover:bg-[#C5F82A] *:hover:text-[#333333]">
+      <ul className="flex flex-col justify-center gap-4 *:hover:bg-[#C5F82A] *:hover:text-[#333333]">
         <li className="p-4 text-[16px] text-white bg-[#333333] text-center rounded-lg font-semibold">
           <Link className="inline-block w-full" href="/github">GitHub</Link>
         </li>
         <li className="p-4 text-[16px] text-white bg-[#333333] text-center rounded-lg font-semibold">
-          <Link href="/Frontend-Mentor">Frontend Mentor</Link>
+          <Link className="inline-block w-full" href="/Frontend-Mentor">Frontend Mentor</Link>
         </li>
         <li className="p-4 text-[16px] text-white bg-[#333333] text-center rounded-lg font-semibold">
-          <Link href="/LinkedIn">LinkedIn</Link>
+          <Link className="inline-block w-full" href="/LinkedIn">LinkedIn</Link>
         </li>
         <li className="p-4 text-[16px] text-white bg-[#333333] text-center rounded-lg font-semibold">
-          <Link href="">Twitter</Link>
+          <Link className="inline-block w-full" href="/Twitter">Twitter</Link>
         </li>
         <li className="p-4 text-[16px] text-white bg-[#333333] text-center rounded-lg font-semibold">
-          <Link href="">Instagram</Link>
+          <Link className="inline-block w-full" href="/Instagram">Instagram</Link>
         </li>
       </ul>
     </div>
